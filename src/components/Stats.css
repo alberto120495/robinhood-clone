@@ -1,0 +1,28 @@
+.stats {
+  color: white;
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 30px 30px 30px;
+}
+
+.stats__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 16px;
+  border-bottom: 1px solid #42494d;
+  padding: 20px 20px 10px 20px;
+  font-weight: 500;
+}
+
+.list {
+  border-top: 1px solid #42494d;
+}
+.stats__container {
+  flex: 1;
+  flex-direction: column;
+  background-color: #1e2023;
+  border: 1ox solid #42494d;
+  border-radius: 5px;
+}

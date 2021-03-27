@@ -1,0 +1,24 @@
+.timeLine > .timeline__buttons {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #3b4754;
+  align-items: center;
+  top: -150px;
+}
+
+.timeline__buttons > .timeline__button {
+  font-weight: bold;
+  padding: 10px 10px 20px 10px;
+  cursor: pointer;
+}
+
+.timeline__button:hover {
+  color: #5ac53b;
+}
+
+.timeline__buttons > .active {
+  color: #5ac53b;
+  border-bottom: 2px solid #5ac53b;
+}
+
+

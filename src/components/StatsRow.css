@@ -1,0 +1,42 @@
+.statsRow {
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  align-items: center;
+  padding: 0 24px;
+  cursor: pointer;
+}
+.statsRow:hover {
+  background-color: #31363a;
+}
+
+.statsRow__chart {
+  padding: 0 10px;
+}
+
+.statsRow__intro > h1 {
+  font-size: 16px;
+  font-weight: bold;
+  padding-bottom: 2px;
+  text-align: left;
+}
+.statsRow__intro > p {
+  font-size: 12px;
+}
+
+.statsRow__numbers {
+  text-align: right;
+}
+
+.statsRow__numbers > p {
+  font-size: 12px;
+  padding-bottom: 4px;
+}
+
+.statsRow__numbersPercentage {
+  color: #5ac53b;
+}
+
+.red {
+  color: red;
+}
